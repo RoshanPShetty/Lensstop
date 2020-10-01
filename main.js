@@ -5,12 +5,19 @@ const selectElement = function (element) {
 
 let menuToggler = selectElement('.menu-toggle');
 let menuTogglerEvents = selectElement('.menu-toggle-events');
+let navItemToggler = selectElement('.nav-item');
 let body = selectElement('body');
 
 menuToggler.addEventListener('click', function() {
-    body.classList.toggle('open');
+    body.classList.toggle('open');  
 });
 
-menuTogglerEvents.addEventListener('click', function() {
-    body.classList.toggle('open');
-});
+body.classList.toggle('close');
+
+// menuTogglerEvents.addEventListener('click', function() {
+//     body.classList.toggle('open');
+// });
+
+// navItemToggler.addEventListener('click', function() {
+//     body.classList.toggle('close');
+// });
