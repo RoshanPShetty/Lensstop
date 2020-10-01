@@ -202,7 +202,7 @@ header {
 
 .headline {
     color: rgb(255, 255, 255);
-    font-size: 5.5vh;
+    font-size: 4.7rem;
     font-family: var(--main-font);
     /* mix-blend-mode: difference; */
     text-transform: uppercase;
