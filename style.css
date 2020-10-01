@@ -562,10 +562,10 @@ footer {
         letter-spacing: 2.8;
     }
 
-    /* .headline {
+    .headline {
         font-size: 7rem;
         letter-spacing: 2.8;
-    } */
+    }
 
     .lensstop-info {
         display: flex;
