@@ -195,20 +195,22 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2.5rem;
-    margin-right: -.5rem;
+    /* margin-right: -.5rem; */
     padding-top: 150px;
     animation: scale .5s forwards;
 }
 
 .headline {
     color: rgb(255, 255, 255);
-    font-size: 4.7rem;
+    font-size: 5.5vh;
     font-family: var(--main-font);
     /* mix-blend-mode: difference; */
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: 2.5rem;
-    margin-right: -.5rem;
+    letter-spacing: 1.5rem;
+    line-height: 1.5;
+    /* margin-right: 4.5rem; */
+    margin-right: -1rem;
     /* padding-top: 150px; */
     animation: scale .5s forwards;
 }
@@ -560,10 +562,10 @@ footer {
         letter-spacing: 2.8;
     }
 
-    .headline {
+    /* .headline {
         font-size: 7rem;
         letter-spacing: 2.8;
-    }
+    } */
 
     .lensstop-info {
         display: flex;
