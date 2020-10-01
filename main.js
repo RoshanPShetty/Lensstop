@@ -4,8 +4,13 @@ const selectElement = function (element) {
 };
 
 let menuToggler = selectElement('.menu-toggle');
+let menuTogglerEvents = selectElement('.menu-toggle-events');
 let body = selectElement('body');
 
 menuToggler.addEventListener('click', function() {
+    body.classList.toggle('open');
+});
+
+menuTogglerEvents.addEventListener('click', function() {
     body.classList.toggle('open');
 });
