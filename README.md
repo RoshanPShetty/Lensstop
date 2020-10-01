@@ -1,6 +1,8 @@
 # Lensstop
 
-Lensstop is a photography website built using HTML, CSS, and Javascript that showcases my photos. 
+Lensstop is a photography website built using HTML, CSS, and Javascript that showcases my photos. You can visit it at https://roshanpshetty.github.io/Lensstop/
+
+
 
 # Pages
 
